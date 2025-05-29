@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1HTML</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1 id="titulo" >REGISTRAR PERSONA</h1> 
+
+    <form> 
+        
+        <label>Nombre:</label><br>
+        <input type="text" name="nombre" required>
+        <br><br>
+        <label>Apellido:</label><br>
+        <input type="text" name="apellido" required>
+        <br><br>
+        <label span class="claseLabel">Sexo:</label><br>
+        <input type="radio" name="sexo" value="masculino" required> Masculino
+        <input type="radio" name="sexo" value="femenino" required> Femenino
+        <br><br>
+        <label>Fecha de nacimiento:</label><br>
+            <input type="date" name="fecha_nacimiento" required>
+            <br><br>
+            <label>Ciudad:</label>
+            <select name="ciudad" >
+                <option value="ciudad1">Sunchales </option>
+                <option value="ciudad2">Rafaela</option>
+
+            </select>
+        <br><br>
+            <button type="submit">Guardar</button>
+            <button type="reset">Cancelar</button>
+
+    </form>
+    
+</body>
+</html>

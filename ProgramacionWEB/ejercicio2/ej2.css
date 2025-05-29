@@ -1,0 +1,44 @@
+button {
+    background-color:white ;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+.claseLabel {
+    font-size: 40px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+body {
+    background-color: #3f9e9e;
+    font-family: Times New Roman, serif;
+    text-align: center;
+}
+
+#titulo {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}
+
+form {
+    background-color: #3f9e9e;
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+a {
+    margin-left: 10px;
+    font-size: 14px;
+    color: purple;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
