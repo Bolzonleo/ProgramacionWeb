@@ -2,28 +2,28 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Gestión de Animales</title>
-  <link rel="stylesheet" href="estilos.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Registrar Animal</title>
+  <link rel="stylesheet" href="../estilos.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 <body>
- <form id="form-animal">
-  <input type="text" id="nombre" placeholder="Nombre" required>
-  <input type="text" id="raza" placeholder="Raza" required>
-  <input type="number" id="edad" placeholder="Edad" required>
-  <input type="text" id="sexo" placeholder="Sexo" required>
-  <input type="text" id="tipo" placeholder="Tipo de animal" required>
-  <button type="submit">Registrar</button>
-</form>
-
-  <script src="js/animales.js"></script>
+  <div class="container">
+    <h2>Registrar Animal</h2>
+    <form id="formRegistrar">
+      <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
+      <input type="text" class="form-control" id="raza" placeholder="Raza" required>
+      <input type="number" class="form-control" id="edad" placeholder="Edad" required>
+      <input type="text" class="form-control" id="sexo" placeholder="Sexo" required>
+      <input type="text" class="form-control" id="tipo" placeholder="Tipo (gato, perro...)" required>
+      <button type="submit" class="btn btn-success">Guardar</button>
+    </form>
+    <div class="text-center mt-4">
+     <a href="../index.html" class="btn btn-secondary">Volver al menú</a>
+    </div>
+  </div>
+  <script src="../js/animales.js"></script>
+  <script>
+    document.getElementById('formRegistrar').addEventListener('submit', registrarAnimal);
+  </script>
 </body>
 </html>
-<form id="form-animal">
-  <input type="text" id="nombre" placeholder="Nombre" required>
-  <input type="text" id="raza" placeholder="Raza" required>
-  <input type="number" id="edad" placeholder="Edad" required>
-  <input type="text" id="sexo" placeholder="Sexo" required>
-  <input type="text" id="tipo" placeholder="Tipo de animal" required>
-  <button type="submit">Registrar</button>
-</form>

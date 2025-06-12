@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Atenciones</title>
+  <link rel="stylesheet" href="../estilos.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Listado de Atenciones</h2>
+    <table class="table" id="tablaAtenciones">
+      <thead>
+        <tr>
+          <th>ID</th><th>Motivo</th><th>Tratamiento</th><th>Medicamentos</th><th>Fecha</th></th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div class="text-center mt-4">
+     <a href="../index.html" class="btn btn-secondary">Volver al menú</a>
+    </div>
+  </div>
+  <script src="../js/atenciones.js"></script>
+  <script>cargarAtenciones();</script>
+</body>
+</html>
